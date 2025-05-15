@@ -1,0 +1,5 @@
+Ejercicio 1
+Jesús Emiliano Hernández Montalvo
+Created by Emiliano Hernández Montalvo on 2025/05/15
+
+Resultado: (4, 1)

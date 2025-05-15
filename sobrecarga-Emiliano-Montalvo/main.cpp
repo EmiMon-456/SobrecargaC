@@ -6,9 +6,7 @@
 //
 
 #include <iostream>
-#include <string>  
 using namespace std;
-
 class Complejo {
 public:
     double re, in;
@@ -22,5 +20,4 @@ int main() {
     Complejo c1(1.0, 2.0), c2(3.0, -1.0);
     Complejo resultado = c1 + c2;
     cout << "Resultado: (" << resultado.re << ", " << resultado.in << ")" << endl;
-    return 0;
 }
