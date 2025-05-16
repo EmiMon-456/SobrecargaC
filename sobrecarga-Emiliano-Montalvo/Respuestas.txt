@@ -5,6 +5,9 @@ Ejercicio 1
 Resultado: (4, 1)
 
 Ejercicio 2
+Resultado 
+true
+false
 
 Ejercicio 3
 
