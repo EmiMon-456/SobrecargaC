@@ -1,3 +1,9 @@
+//
+//aplicación.cpp
+//Ejercicio 2
+// Jesús Emiliano Hernández Montalvo
+// Created by Emiliano Hernández Montalvo on 2025/05/15
+//
 #include <iostream>
 using namespace std;
 
