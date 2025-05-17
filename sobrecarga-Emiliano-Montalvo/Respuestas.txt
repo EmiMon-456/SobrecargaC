@@ -13,6 +13,8 @@ Ejercicio 3
 Empleado[303]: Emiliano Montalvo
 
 Ejercicio 4
+Resultado:
+Old: 18, New: 19
 
 
 Ejercicio 5
