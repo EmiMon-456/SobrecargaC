@@ -12,7 +12,9 @@ class animal {
     //definir el tipo de variable
     string nombre;
     // constructor de la clase animal
-    animal(string _nombre){
+    //lleva un apuntador dentro para evitar generar errores
+    // entrega un vacío en lugar de generar un error
+    animal(const string& _nombre = ""){
         nombre =_nombre;
     }
         //Métodos de la clase padre que da a heredar
