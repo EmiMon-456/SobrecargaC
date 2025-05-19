@@ -38,7 +38,11 @@ class perro: public animal {
 
     //función utilizada para llamar los métodos
 int main() {
+    //Definir la nueva variable con una de las clases
+    //En este caso clase derivada
     perro miperro("Randy");
+
+    //Llamar a todos los métodos presentes
     miperro.mostrar();
     miperro.comer();
     miperro.ladrar();
