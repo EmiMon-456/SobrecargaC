@@ -7,12 +7,15 @@
 using namespace std;
 
 class animal {
+    // atributos públicos de la clase
     public:
+    //definir el tipo de variable
     string nombre;
-    // constructor
+    // constructor de la clase animal
     animal(string _nombre){
         nombre =_nombre;
     }
+        //Métodos de la clase padre que da a heredar
         void comer() {
             cout <<"Mi mascota " << nombre << " está comoiendo" << std::endl;
         }
@@ -21,16 +24,19 @@ class animal {
         }
 };
 
+//Nueva clase derivada de la clase padre
 class perro: public animal { 
+    //atributos de la clase derivada
         public: 
-
+        //Contructor derivado de la clase padre
         perro(string nombre) : animal(nombre) {}
-
+        //Método de la clase derivada, único de ella
         void ladrar() {
             cout << nombre <<" dice " << "Guau Guau" << std::endl; 
         } 
     };
 
+    //función utilizada para llamar los métodos
 int main() {
     perro miperro("Randy");
     miperro.mostrar();
