@@ -3,6 +3,7 @@ Hecho el 19/5/2025
 Salidas de cada ejercicio
 
 Ejercicio1H:
+
 Nombre de la mascota: Randy
 Mi mascota Randy está comoiendo
 Randy dice Guau Guau
@@ -18,6 +19,8 @@ Ejercicio5H:
 Ejercicio6H:
 
 Ejercicio7H:
+
+Cielito lindo
 
 Ejercicio8H:
 

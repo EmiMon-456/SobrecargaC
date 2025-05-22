@@ -7,12 +7,28 @@
 using namespace std;
 
 class instrumento {
-    public: 
+public: 
+    instrumento(){};
     virtual void tocar() {
-
+        //Sobrecargando Guitarra
+        cout<<"prueba"<<std::endl;
     }
 };
 
 class guitarra: public instrumento {
-    public 
+    public:
+    void tocar() override {
+        cout<<"Cielito lindo"<<std::endl;
+    }
+};
+
+void probar(instrumento* inst) {
+    inst->tocar();
+}
+
+int main(){
+    //crear un objeto guitarra
+    guitarra g;
+    probar(&g);
+    return 0;
 }
