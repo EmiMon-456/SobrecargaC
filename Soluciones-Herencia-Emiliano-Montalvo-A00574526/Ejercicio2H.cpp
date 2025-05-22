@@ -10,13 +10,17 @@ class Persona{
     protected:
     string nombre;
     int edad;
+
+    public:
+    Persona(int edad, string nombre) : edad(edad), nombre(nombre){}
+    
 };
 
 class Empleado : protected Persona {
-    public:
-        void mostrarDatos(){
-
-        }
+public:
+    void mostrarDatos() {
+        // Completa para mostrar nombre y edad
+    }
 };
 
 int main() {
