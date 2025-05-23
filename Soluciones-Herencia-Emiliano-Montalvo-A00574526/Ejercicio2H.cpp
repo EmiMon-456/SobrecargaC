@@ -21,12 +21,12 @@ public:
     Empleado(int edad, string nombre) : Persona(edad, nombre){};
     void mostrarDatos() {
         // Completa para mostrar nombre y edad
-        cout << "Edad: " << edad << "Nombre: " << nombre << std::endl;
+        cout << "Edad: " << edad << " Nombre: " << nombre << std::endl;
     }
 };
 
 int main() {
-    Empleado emp;
+    Empleado emp(19, "Emiliano");
     emp.mostrarDatos();
     return 0;
 }
