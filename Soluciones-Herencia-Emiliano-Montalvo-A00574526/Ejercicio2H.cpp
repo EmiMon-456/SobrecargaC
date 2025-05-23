@@ -18,8 +18,10 @@ class Persona{
 
 class Empleado : protected Persona {
 public:
+    Empleado(int edad, string nombre) : Persona(edad, nombre){};
     void mostrarDatos() {
         // Completa para mostrar nombre y edad
+        cout << "Edad: " << edad << "Nombre: " << nombre << std::endl;
     }
 };
 
