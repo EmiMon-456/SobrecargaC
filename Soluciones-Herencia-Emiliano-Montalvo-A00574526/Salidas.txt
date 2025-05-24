@@ -10,9 +10,16 @@ Randy dice Guau Guau
 
 Ejercicio2H:
 
+Edad: 19 Nombre: Emiliano
+
 Ejercicio3H:
 
+Vehículo encendido
+
 Ejercicio4H:
+
+Estoy reproduciendo video en: Netflix
+Estoy reproduciendo audio en: Alexa
 
 Ejercicio5H:
 
