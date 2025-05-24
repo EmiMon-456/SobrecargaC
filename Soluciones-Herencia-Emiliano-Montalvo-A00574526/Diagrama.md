@@ -13,6 +13,6 @@ classDiagram
 
     %% Relaciones
     Forma <|-- Cuadrado
-    Forma <|-- Circulo
+    Forma <|-- Círculo
 
 ```
