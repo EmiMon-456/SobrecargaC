@@ -1,18 +1,18 @@
 ```mermaid
 classDiagram
     %% Definición de clases
-    class Animal {
-        +Animal(name: string)
-        <<abstract>>
-        +speak(): void
-        -name: string
+    class Forma {
+        //...
     }
-    class Dog {
-        +Dog(name: string)
-        +speak(): void
+    class Cuadrado {
+        //...
+    }
+    class Círculo {
+        //... 
     }
 
     %% Relaciones
-    Animal <|-- Dog
+    Forma <|-- Cuadrado
+    Forma <|-- Círculo
 
 ```
