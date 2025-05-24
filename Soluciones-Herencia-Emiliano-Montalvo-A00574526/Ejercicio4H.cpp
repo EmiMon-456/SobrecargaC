@@ -8,32 +8,48 @@ using namespace std;
 
 // Completa las clases según el diagrama
 
+//clase definida
 class ReproductorMultimedia{
+    //atributos públicos de la clase
     public:
+    //definición del tipo de variable
     string dispositivo;
-    ReproductorMultimedia(string name) : dispositivo(name) {}
+    //constructor de la clase ReproductorMultimedia
+    //Creación de un apuntador dentro del constructor
+    //evita la generación de errores
+    ReproductorMultimedia(const string& name = "") : dispositivo(name) {
+        dispositivo = name;
+        //asignación de la variable
+    }
 };
 
 class ReproductorAudio: public ReproductorMultimedia{
     public:
-    ReproductorAudio(string name):ReproductorMultimedia(name){}
-    void reproducir(){
-        cout<<"Estoy reproduciendo audio en: "<<dispositivo<<std::endl;
+    ReproductorAudio(const string& name=""):ReproductorMultimedia(name){
+        dispositivo = name;
+    }
+    void reproducir(string sg){
+        cout<<"Estoy reproduciendo audio de "<<sg<<" en: "<<dispositivo<<std::endl;
     }
 };
 
 class ReproductorVideo: public ReproductorMultimedia{
     public: 
-    ReproductorVideo(string name): ReproductorMultimedia(name){}
-    void reproducir(){
-        cout<<"Estoy reproduciendo video en: "<<dispositivo<<std::endl;
+    ReproductorVideo(const string& name = ""): ReproductorMultimedia(name){
+        dispositivo = name;
+    }
+    void reproducir(string vd){
+        cout<<"Estoy reproduciendo video de "<<vd<<" en: "<<dispositivo<<std::endl;
     }
 };
 
 int main(){
+    //Creación del objeto en distintas clases 
     ReproductorVideo	telefono("Netflix");
     ReproductorAudio	Alexa("Alexa");
-    telefono.reproducir();
-    Alexa.reproducir();
+    //se les asigna el nombre que llevarán
+    //se selecciona el método que realizará cada uno
+    telefono.reproducir("Noche sin paz");
+    Alexa.reproducir("Make you mine");
     return 0;
 }

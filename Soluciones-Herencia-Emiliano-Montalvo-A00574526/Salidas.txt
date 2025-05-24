@@ -2,39 +2,55 @@ Hecho por Jesús Emiliano Hernández Montalvo
 Hecho el 19/5/2025
 Salidas de cada ejercicio
 
+
 Ejercicio1H:
 
 Nombre de la mascota: Randy
 Mi mascota Randy está comoiendo
 Randy dice Guau Guau
 
+
 Ejercicio2H:
 
 Edad: 19 Nombre: Emiliano
+
 
 Ejercicio3H:
 
 Vehículo encendido
 
+
 Ejercicio4H:
 
-Estoy reproduciendo video en: Netflix
-Estoy reproduciendo audio en: Alexa
+Estoy reproduciendo video de Noche sin paz en: Netflix
+Estoy reproduciendo audio de Make you mine en: Alexa
+
 
 Ejercicio5H:
 
+
 Ejercicio6H:
+
+Emiliano bienvenido, has iniciado sesión
+Emiliano has moderado
+Emiliano has baneado a El loco SteVe
+
 
 Ejercicio7H:
 
 Cielito lindo
 
+
 Ejercicio8H:
+
 
 Ejercicio9H:
 
+
 Ejercicio10H:
 
+
 Ejercicio11H:
+
 
 Ejercicio12H:
