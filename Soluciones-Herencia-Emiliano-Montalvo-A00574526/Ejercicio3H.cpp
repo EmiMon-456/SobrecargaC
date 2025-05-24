@@ -8,6 +8,9 @@ using namespace std;
 
 class Vehiculo {
 public:
+    //Establecer el constructor de la clase
+    Vehiculo(){};
+    //Método público de la clase
     void encender() {
         cout << "Vehículo encendido" << std::endl;
     }
