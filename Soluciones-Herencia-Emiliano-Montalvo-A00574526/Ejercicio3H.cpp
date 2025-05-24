@@ -9,7 +9,7 @@ using namespace std;
 class Vehiculo {
 public:
     void encender() {
-        cout << "Vehículo encendido" << endl;
+        cout << "Vehículo encendido" << std::endl;
     }
 };
 
