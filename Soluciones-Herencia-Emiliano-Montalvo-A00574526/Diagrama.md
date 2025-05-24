@@ -3,14 +3,16 @@ classDiagram
     %% Definición de clases
     class Forma {
         //...
+    }
     class Cuadrado {
         //...
     }
     class Círculo {
-        //... }
+        //... 
     }
 
     %% Relaciones
-    Animal <|-- Dog
+    Forma <|-- Cuadrado
+    Forma <|-- Circulo
 
 ```
