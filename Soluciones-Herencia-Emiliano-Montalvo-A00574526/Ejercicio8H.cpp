@@ -9,7 +9,7 @@ using namespace std;
 //Crear una clase base Persona
 class Persona {
     //atributos protegidos de la clase
-protected:
+    protected:
     //Definir el tipo de variable
     string nombre;
     //Atributtos públicos de la clase
