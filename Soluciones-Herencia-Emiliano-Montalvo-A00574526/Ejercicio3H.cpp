@@ -19,6 +19,8 @@ public:
 //class Coche : private Vehiculo {};
 // esta parte era del código anterior la cual marcaba un error
 class Coche : public Vehiculo {
+    public:
+    Coche(){};
 };
 
 int main() {

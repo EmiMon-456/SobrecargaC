@@ -10,7 +10,7 @@ classDiagram
     }
     class Empleado{
         +Empleado(int edad, string nombre)
-        +mostrarDatos():void
+        +mostrarDatos(): void
     }
 
     
