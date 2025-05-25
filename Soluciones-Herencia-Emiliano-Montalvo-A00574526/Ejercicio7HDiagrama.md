@@ -9,9 +9,8 @@ classDiagram
     }
     class guitarra{
         +tocar() : void override
+        +probar() : void
     }
-
-    +probar() : void
     
 
     %% Relaciones
